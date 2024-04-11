@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Grid Generator</title>
+    <link href="../css/shared.css" rel="stylesheet" />
+    <link href="../css/canvasConvert.css" rel="stylesheet" />
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h1>Image Grid Generator</h1>
+    <input type="file" id="file-input" accept="image/*" multiple>
+    <button id="generate-btn">Generate Grid Image</button>
+    <a id="download-btn" style="display: none;" download><button>Download Image</button></a>
+    <br>
+    <br>
+    <div style="border: 1px dotted whitesmoke; max-width: fit-content; padding: 0 15px; padding-bottom: 5px;">
+        <h3><b>Sizes per image</b></h3>
+        <label>
+            <input type="checkbox" id="combine" onchange="toggleInputs()"> Square canvas
+        </label>
+        <br>
+        <div id="widthInput">
+            Max width: <input type="number" id="width" value="512">
+        </div>
+        <div id="heightInput">
+            Max height: <input type="number" id="height" value="512">
+        </div>
+        <div id="widthHeightInput" style="display: none;">
+            Max size: <input type="number" id="widthHeight" value="512">
+        </div>
+
+    </div>
+
+
+    <div id="grid-container"></div>
+    <canvas id="grid-canvas"></canvas>
+
+
+    <div id="drag1" class="drag" draggable="true">Drag me</div>
+    <div id="drag2" class="drag" draggable="true">Drag me too</div>
+    <div id="drop1" class="drop">Drop here</div>
+    <div id="drop2" class="drop">Drop here too</div>
+
+
+
+    <script src="/js/index.js"></script>
+</body>
+<style>
+
+</style>
+
+<script>
+
+</script>
+
+</html>

@@ -1,0 +1,45 @@
+* {
+	background-color: #1f1f1f;
+	color: white;
+	/* outline: 1px red solid; */
+}
+
+.navbar {
+	background-color: #1f1f1f;
+	color: white;
+	border-bottom: 1px solid #000000;
+	box-shadow: 0px 0px 10px #000000;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 10px 0px;
+	margin-bottom: 10px;
+	border-radius: 0px;
+	border-bottom: 1px solid #000000;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+	-moz-transform: translate3d(0px, 0px, 0px);
+	-ms-transform: translate3d(0px, 0px, 0px);
+	-o-transform: translate3d(0px, 0px, 0px);
+	transform: translate3d(0px, 0px, 0px);
+}
+.box {
+	/* max-width: 5%; */
+	padding: 5%;
+	max-width: 100%;
+	max-height: 100%;
+	/* min-width: 180px; */
+	word-wrap: break-word;
+}
+
+.dragged {
+	position: absolute;
+	width: 128px;
+	height: auto;
+}

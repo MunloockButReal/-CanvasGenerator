@@ -1,0 +1,64 @@
+/* Add your CSS styles here */
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 20px;
+}
+
+#grid-container {
+	display: grid;
+}
+
+.grid-cell {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #ccc;
+	overflow: hidden;
+	max-width: 128px;
+	max-height: 128px;
+}
+
+img {
+	max-width: 100%;
+	max-height: 100%;
+	display: block;
+}
+
+input {
+	margin: 5px 0;
+	background: lightgray;
+	color: black;
+	max-width: 100px;
+}
+
+button {
+	display: inline-block;
+	outline: 0;
+	appearance: none;
+	padding: 0px 12px;
+	border: 0px solid transparent;
+	border-radius: 4px;
+	text-decoration: none;
+	cursor: pointer;
+	background-color: rgb(9, 128, 76);
+	box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px;
+	color: rgb(255, 255, 255);
+	font-size: 14px;
+	font-weight: 400;
+	height: 36px;
+	transition: all 150ms ease-in-out 0s;
+}
+button:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(17, 97, 73);
+	box-shadow: rgb(19 170 82 / 40%) 0px 2px 3px, rgb(195 231 202) 0px 0px 0px 3px;
+}
+
+input[type='file'] {
+	background: #1f1f1f;
+	color: white;
+	max-width: fit-content;
+	text-align: center;
+	font-weight: bold;
+}
